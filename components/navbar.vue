@@ -7,17 +7,28 @@
       >NuxtJS</a>
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a
+            <li class="nav-item">
+              <nuxt-link
+                exact
                 class="nav-link"
-                href="#"
-              >Home</a>
+                to="/"
+                active-class="active"
+              >Home</nuxt-link>
             </li>
             <li class="nav-item">
-              <a
+              <nuxt-link
                 class="nav-link"
-                href="#"
-              >Users</a>
+                no-prefetch
+                to="/users"
+                active-class="active"
+              >Users</nuxt-link>
+            </li>
+            <li class="nav-item">
+              <nuxt-link no-prefetch to="/about" active-class="active" class="nav-link">About</nuxt-link>
+            </li>
+
+            <li class="nav-item">
+              <nuxt-link no-prefetch to="/login" active-class="active" class="nav-link">Login</nuxt-link>
             </li>
           </ul>
         </div>
