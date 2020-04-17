@@ -1,6 +1,6 @@
-# blog
+# test Nuxt.js
 
-> Blog project. Test Nuxt.js
+> First project. Test Nuxt.js
 
 ## Build Setup
 
